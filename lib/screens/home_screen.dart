@@ -120,7 +120,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text('Halo, Ahmadi', style: AppTextStyles.title),
+                          Text('Halo, Ivan Mahendra', style: AppTextStyles.title),
                           const SizedBox(height: 4),
                           const Text(
                             'Apa yang ingin kamu catat hari ini?',

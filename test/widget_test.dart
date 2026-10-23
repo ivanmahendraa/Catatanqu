@@ -19,7 +19,7 @@ void main() {
 
     await tester.tap(find.text('Masuk'));
     await tester.pumpAndSettle();
-    expect(find.text('Halo, Ahmadi'), findsOneWidget);
+    expect(find.text('Halo, Ivan Mahendra'), findsOneWidget);
     expect(find.text('Ide Aplikasi'), findsOneWidget);
 
     await tester.enterText(find.byType(TextField), 'Ide Aplikasi');
