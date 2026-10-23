@@ -1,17 +1,30 @@
-# catatanqu
+# CatatanKu
 
-A new Flutter project.
+Aplikasi catatan harian sederhana berbasis Flutter. Proyek ini berisi UI
+frontend dengan data contoh lokal dan tidak menggunakan backend maupun
+autentikasi.
 
-## Getting Started
+## Menjalankan aplikasi
 
-This project is a starting point for a Flutter application.
+Pastikan Flutter SDK sudah tersedia, lalu jalankan:
 
-A few resources to get you started if this is your first Flutter project:
+```sh
+flutter pub get
+flutter run
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Fitur
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Splash screen dan login statis.
+- Beranda dengan pencarian dan filter kategori.
+- Membuat catatan dengan kategori, warna, dan prioritas.
+- Melihat detail dan menghapus catatan dengan konfirmasi.
+- Data catatan tersimpan di memori selama aplikasi berjalan.
+- Tangkapan layar emulator tersedia di folder `screenshots/`.
+
+## Memeriksa kualitas
+
+```sh
+flutter analyze
+flutter test
+```
